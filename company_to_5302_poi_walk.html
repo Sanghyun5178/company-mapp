@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89b8191c64b9036787b69f901e558974 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89b8191c64b9036787b69f901e558974" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_89b8191c64b9036787b69f901e558974 = L.map(
+                "map_89b8191c64b9036787b69f901e558974",
+                {
+                    center: [37.5661927, 126.8392747],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_882e3cfd2efaeadeb99e6e490e53e645 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_882e3cfd2efaeadeb99e6e490e53e645.addTo(map_89b8191c64b9036787b69f901e558974);
+        
+    
+            var marker_43b9a4312b470b8f1dc145f9d7e13939 = L.marker(
+                [37.5661927, 126.8392747],
+                {
+}
+            ).addTo(map_89b8191c64b9036787b69f901e558974);
+        
+    
+            var icon_047d7037eb9005245294ad9a3a80ede4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9f9a582be01711889c027bc2f6e2f4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05a22860b447ce6d980ac93303efd0bd = $(`<div id="html_05a22860b447ce6d980ac93303efd0bd" style="width: 100.0%; height: 100.0%;">회사 (명화지리정보)</div>`)[0];
+                popup_f9f9a582be01711889c027bc2f6e2f4a.setContent(html_05a22860b447ce6d980ac93303efd0bd);
+            
+        
+
+        marker_43b9a4312b470b8f1dc145f9d7e13939.bindPopup(popup_f9f9a582be01711889c027bc2f6e2f4a)
+        ;
+
+        
+    
+    
+                marker_43b9a4312b470b8f1dc145f9d7e13939.setIcon(icon_047d7037eb9005245294ad9a3a80ede4);
+            
+    
+            var marker_d1dc95de40e12eb51a35758ad0463431 = L.marker(
+                [37.5672, 126.84],
+                {
+}
+            ).addTo(map_89b8191c64b9036787b69f901e558974);
+        
+    
+            var icon_bb44e7769d9535d951d277f7097dc8e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d77c49e20f6612955758b25a50a0877 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffbdfd2dd18177942906aa4150023a9b = $(`<div id="html_ffbdfd2dd18177942906aa4150023a9b" style="width: 100.0%; height: 100.0%;">골목 경유</div>`)[0];
+                popup_2d77c49e20f6612955758b25a50a0877.setContent(html_ffbdfd2dd18177942906aa4150023a9b);
+            
+        
+
+        marker_d1dc95de40e12eb51a35758ad0463431.bindPopup(popup_2d77c49e20f6612955758b25a50a0877)
+        ;
+
+        
+    
+    
+                marker_d1dc95de40e12eb51a35758ad0463431.setIcon(icon_bb44e7769d9535d951d277f7097dc8e9);
+            
+    
+            var marker_f6e67131f658c0cb1877cb2ae7df962d = L.marker(
+                [37.56832, 126.84018],
+                {
+}
+            ).addTo(map_89b8191c64b9036787b69f901e558974);
+        
+    
+            var icon_f61811e6a1d0e1fca4d93c419727d698 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68c97b1d87b0361ff13f1bdbe16bb7b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b55040ba73726ca57cd0cf625e5e9093 = $(`<div id="html_b55040ba73726ca57cd0cf625e5e9093" style="width: 100.0%; height: 100.0%;">회식장소 (5302김치생삼겹)</div>`)[0];
+                popup_68c97b1d87b0361ff13f1bdbe16bb7b7.setContent(html_b55040ba73726ca57cd0cf625e5e9093);
+            
+        
+
+        marker_f6e67131f658c0cb1877cb2ae7df962d.bindPopup(popup_68c97b1d87b0361ff13f1bdbe16bb7b7)
+        ;
+
+        
+    
+    
+                marker_f6e67131f658c0cb1877cb2ae7df962d.setIcon(icon_f61811e6a1d0e1fca4d93c419727d698);
+            
+    
+            var poly_line_d9f6ce3d0714495d0536057b1ccbf487 = L.polyline(
+                [[37.566082, 126.839845], [37.566624, 126.840013], [37.567171, 126.840165], [37.567786, 126.840336], [37.568001, 126.839919]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_89b8191c64b9036787b69f901e558974);
+        
+    
+            poly_line_d9f6ce3d0714495d0536057b1ccbf487.bindTooltip(
+                `<div>
+                     도보 약 0.4분
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
